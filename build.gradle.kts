@@ -9,7 +9,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.haythammones.kotlin.helpers"
+group = "com.haythammones"
 version = "0.1"
 java.sourceCompatibility = JavaVersion.VERSION_17
 

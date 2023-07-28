@@ -1,1 +1,1 @@
-rootProject.name = "com.haythammones.kotlin.helpers"
+rootProject.name = "kotlin.helpers"

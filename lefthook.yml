@@ -1,0 +1,10 @@
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: npx --yes commitlint --edit
+pre-commit:
+  parallel: true
+  commands:
+    check-format:
+      tags: style
+      run: ./gradlew spotlessCheck -DspotlessFiles=$(echo {staged_files} | sed 's/ /,/g')

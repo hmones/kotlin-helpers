@@ -5,7 +5,7 @@ plugins {
     id("com.diffplug.spotless") version "6.20.0"
     id("jacoco")
     id("org.sonarqube") version "4.3.0.3225"
-    id("com.adarshr.test-logger") version "3.2.0"
+    id("com.adarshr.test-logger") version "4.0.0"
     id("maven-publish")
 }
 
